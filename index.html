@@ -23,7 +23,6 @@
     <div class="container ">
         <div class="row min-vh-100 px-0" data-style="min-height: 100vh;">
             <div class="col-sm-10 offset-sm-1 col-lg-6 offset-lg-3 align-self-center p-0 border shadow-sm">
-                <!------------------------------- header ------------------------------->
                 <header class="border-bottom border-1">
                     <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light sticky-top">
                         <div class="container-fluid d-flex justify-content-center">
@@ -31,14 +30,12 @@
                         </div>
                     </nav>
                 </header>
-                <!------------------------------- main ------------------------------->
                 <main class="bg-white">
                     <div class="p-5">
                         <div>
                             <h1 class="h4">Please login or register</h1>
                         </div>
 
-                        <!------------------------------- tab ------------------------------->
                         <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link text-black active" id="home-tab" data-bs-toggle="tab"
@@ -51,11 +48,10 @@
                                     aria-controls="profile-tab-pane" aria-selected="false">Register</button>
                             </li>
                         </ul>
-                        <!------------------------------- tab content/login form ------------------------------->
+
                         <div class="tab-content border border-top-0" id="myTabContent">
                             <div class="tab-pane  show active " id="home-tab-pane" role="tabpanel"
                                 aria-labelledby="home-tab" tabindex="0">
-                                <!-- <div> -->
                                 <form class="py-4 px-2" action="/profile" method="get">
                                     <div class="form-floating mb-3 has-validation">
                                         <input type="email" name="EmailAddress" required minlength="8"
@@ -73,13 +69,10 @@
                                         <button type="submit" class="btn btn-primary mt-3 align-middle">Login</button>
                                     </div>
                                 </form>
-                                <!-- </div> -->
                             </div>
 
-                            <!------------------------------- tab content/register form ------------------------------->
                             <div class="tab-pane " id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
                                 tabindex="0">
-                                <!-- <div> -->
                                 <form class="py-4 px-2" action="/profile" method="get">
                                     <div class="form-floating mb-3">
                                         <input type="text" name="fullName" required minlength="5" maxlength="45"
@@ -107,13 +100,11 @@
                                             class="btn btn-primary mt-3 align-middle">Register</button>
                                     </div>
                                 </form>
-                                <!-- </div> -->
                             </div>
                         </div>
                     </div>
-
                 </main>
-                <!------------------------------- footer ------------------------------->
+
                 <footer class="bg-secondary text-white text-center bg-gray-700 vstack">
                     <span> Copyright© 2024 CrochetME.</span>
                     <span>All Rights Reserved</span>
