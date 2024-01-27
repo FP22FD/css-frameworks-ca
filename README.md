@@ -9,7 +9,7 @@
 
 ## Live app
 
-This project is deployed on [Netlify](https://css-frameworks--luminous-pothos-3e9a98.netlify.app/).
+This project is deployed on [Netlify](https://luminous-pothos-3e9a98.netlify.app/).
 
 ## CA goals
 
